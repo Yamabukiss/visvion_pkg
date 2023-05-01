@@ -3,7 +3,7 @@ project(vision_pkg)
 
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
-  roscpp dynamic_reconfigure
+  roscpp dynamic_reconfigure std_msgs
 )
 
 generate_dynamic_reconfigure_options(
